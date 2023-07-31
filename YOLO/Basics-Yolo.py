@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 import cv2
 
-model= YOLO("yolov8n.pt")
-results=model("YOLO/Images/photo.jpg",show=True)
+model= YOLO("../weights/yolov8m.pt")
+results=model("YOLO/Images/2.png",show=True)
 cv2.waitKey(0)
