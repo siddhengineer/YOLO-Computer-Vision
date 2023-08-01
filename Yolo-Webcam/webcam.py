@@ -10,7 +10,7 @@ import math
 
 cap = cv2.VideoCapture("Videos/bikes.mp4") #For Video
 
-model= YOLO("../weights/yolov8n.pt")
+model= YOLO("../weights/yolov8m.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
