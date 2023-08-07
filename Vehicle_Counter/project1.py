@@ -24,7 +24,7 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "teddy bear", "hair drier", "toothbrush"
               ]
 
-#mask = cv2.imread("cars_mask.png")
+#mask = cv2.imread("mask.png")
 
 #Tracking
 
